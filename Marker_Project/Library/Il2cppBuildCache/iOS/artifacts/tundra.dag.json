@@ -1,0 +1,180 @@
+{
+  "Nodes": [
+    {
+      "Annotation": "all_tundra_nodes",
+      "Action": "",
+      "Inputs": [],
+      "Outputs": [],
+      "TargetDirectories": [],
+      "PassIndex": 0,
+      "ToBuildDependencies": [
+        1,
+        2,
+        3
+      ],
+      "ToUseDependencies": [],
+      "OverwriteOutputs": true,
+      "FrontendResponseFiles": [],
+      "AllowUnexpectedOutput": true,
+      "AllowedOutputSubstrings": [],
+      "DebugActionIndex": 0
+    },
+    {
+      "Annotation": "Il2Cpp /Users/se/Documents/unityclass/Marker_Project/Library/Il2cppBuildCache/iOS/il2cppOutput",
+      "Action": "\"/Applications/Unity/Hub/Editor/2021.1.5f1/Unity.app/Contents/il2cpp/build/deploy/netcoreapp3.1/il2cpp\" --convert-to-cpp --emit-null-checks --enable-array-bounds-check --dotnetprofile=\"unityaot\" --additional-cpp=\"/Users/se/Documents/unityclass/Marker_Project/Library/Il2cppBuildCache/iOS/additionalCppFiles/UnityClassRegistration.cpp\" --additional-cpp=\"/Users/se/Documents/unityclass/Marker_Project/Library/Il2cppBuildCache/iOS/additionalCppFiles/UnityICallRegistration.cpp\" --incremental-g-c-time-slice=3 --avoid-dynamic-library-copy --profiler-report --map-file-parser=\"/Applications/Unity/Hub/Editor/2021.1.5f1/Unity.app/Contents/Tools/MapFileParser/MapFileParser\" --directory=\"/Users/se/Documents/unityclass/Marker_Project/Temp/StagingArea/Data/Managed\" --generatedcppdir=\"/Users/se/Documents/unityclass/Marker_Project/Library/Il2cppBuildCache/iOS/il2cppOutput\"",
+      "Inputs": [
+        "/Users/se/Documents/unityclass/Marker_Project/Temp/StagingArea/Data/Managed",
+        "/Users/se/Documents/unityclass/Marker_Project/Temp/StagingArea/Data/Managed/Assembly-CSharp.dll",
+        "/Users/se/Documents/unityclass/Marker_Project/Temp/StagingArea/Data/Managed/Mono.Security.dll",
+        "/Users/se/Documents/unityclass/Marker_Project/Temp/StagingArea/Data/Managed/System.Configuration.dll",
+        "/Users/se/Documents/unityclass/Marker_Project/Temp/StagingArea/Data/Managed/System.Core.dll",
+        "/Users/se/Documents/unityclass/Marker_Project/Temp/StagingArea/Data/Managed/System.Xml.dll",
+        "/Users/se/Documents/unityclass/Marker_Project/Temp/StagingArea/Data/Managed/System.dll",
+        "/Users/se/Documents/unityclass/Marker_Project/Temp/StagingArea/Data/Managed/Unity.XR.ARFoundation.dll",
+        "/Users/se/Documents/unityclass/Marker_Project/Temp/StagingArea/Data/Managed/Unity.XR.ARKit.dll",
+        "/Users/se/Documents/unityclass/Marker_Project/Temp/StagingArea/Data/Managed/Unity.XR.ARSubsystems.dll",
+        "/Users/se/Documents/unityclass/Marker_Project/Temp/StagingArea/Data/Managed/Unity.XR.Management.dll",
+        "/Users/se/Documents/unityclass/Marker_Project/Temp/StagingArea/Data/Managed/UnityEngine.AIModule.dll",
+        "/Users/se/Documents/unityclass/Marker_Project/Temp/StagingArea/Data/Managed/UnityEngine.ARModule.dll",
+        "/Users/se/Documents/unityclass/Marker_Project/Temp/StagingArea/Data/Managed/UnityEngine.AnimationModule.dll",
+        "/Users/se/Documents/unityclass/Marker_Project/Temp/StagingArea/Data/Managed/UnityEngine.AudioModule.dll",
+        "/Users/se/Documents/unityclass/Marker_Project/Temp/StagingArea/Data/Managed/UnityEngine.CoreModule.dll",
+        "/Users/se/Documents/unityclass/Marker_Project/Temp/StagingArea/Data/Managed/UnityEngine.GameCenterModule.dll",
+        "/Users/se/Documents/unityclass/Marker_Project/Temp/StagingArea/Data/Managed/UnityEngine.GridModule.dll",
+        "/Users/se/Documents/unityclass/Marker_Project/Temp/StagingArea/Data/Managed/UnityEngine.IMGUIModule.dll",
+        "/Users/se/Documents/unityclass/Marker_Project/Temp/StagingArea/Data/Managed/UnityEngine.InputLegacyModule.dll",
+        "/Users/se/Documents/unityclass/Marker_Project/Temp/StagingArea/Data/Managed/UnityEngine.InputModule.dll",
+        "/Users/se/Documents/unityclass/Marker_Project/Temp/StagingArea/Data/Managed/UnityEngine.ParticleSystemModule.dll",
+        "/Users/se/Documents/unityclass/Marker_Project/Temp/StagingArea/Data/Managed/UnityEngine.Physics2DModule.dll",
+        "/Users/se/Documents/unityclass/Marker_Project/Temp/StagingArea/Data/Managed/UnityEngine.PhysicsModule.dll",
+        "/Users/se/Documents/unityclass/Marker_Project/Temp/StagingArea/Data/Managed/UnityEngine.SharedInternalsModule.dll",
+        "/Users/se/Documents/unityclass/Marker_Project/Temp/StagingArea/Data/Managed/UnityEngine.SpatialTracking.dll",
+        "/Users/se/Documents/unityclass/Marker_Project/Temp/StagingArea/Data/Managed/UnityEngine.SpriteShapeModule.dll",
+        "/Users/se/Documents/unityclass/Marker_Project/Temp/StagingArea/Data/Managed/UnityEngine.SubsystemsModule.dll",
+        "/Users/se/Documents/unityclass/Marker_Project/Temp/StagingArea/Data/Managed/UnityEngine.TerrainModule.dll",
+        "/Users/se/Documents/unityclass/Marker_Project/Temp/StagingArea/Data/Managed/UnityEngine.TerrainPhysicsModule.dll",
+        "/Users/se/Documents/unityclass/Marker_Project/Temp/StagingArea/Data/Managed/UnityEngine.TextRenderingModule.dll",
+        "/Users/se/Documents/unityclass/Marker_Project/Temp/StagingArea/Data/Managed/UnityEngine.TilemapModule.dll",
+        "/Users/se/Documents/unityclass/Marker_Project/Temp/StagingArea/Data/Managed/UnityEngine.UI.dll",
+        "/Users/se/Documents/unityclass/Marker_Project/Temp/StagingArea/Data/Managed/UnityEngine.UIElementsModule.dll",
+        "/Users/se/Documents/unityclass/Marker_Project/Temp/StagingArea/Data/Managed/UnityEngine.UIElementsNativeModule.dll",
+        "/Users/se/Documents/unityclass/Marker_Project/Temp/StagingArea/Data/Managed/UnityEngine.UIModule.dll",
+        "/Users/se/Documents/unityclass/Marker_Project/Temp/StagingArea/Data/Managed/UnityEngine.XRModule.dll",
+        "/Users/se/Documents/unityclass/Marker_Project/Temp/StagingArea/Data/Managed/UnityEngine.dll",
+        "/Users/se/Documents/unityclass/Marker_Project/Temp/StagingArea/Data/Managed/mscorlib.dll"
+      ],
+      "Outputs": [],
+      "TargetDirectories": [
+        "/Users/se/Documents/unityclass/Marker_Project/Library/Il2cppBuildCache/iOS/il2cppOutput"
+      ],
+      "PassIndex": 0,
+      "ToBuildDependencies": [],
+      "ToUseDependencies": [],
+      "OverwriteOutputs": false,
+      "FrontendResponseFiles": [],
+      "AllowUnexpectedOutput": true,
+      "AllowedOutputSubstrings": [],
+      "DebugActionIndex": 1
+    },
+    {
+      "Annotation": "Copy Additional C++ File /Users/se/Documents/unityclass/Marker_Project/Library/Il2cppBuildCache/iOS/il2cppOutput/UnityClassRegistration.cpp",
+      "Action": "TMPFILE=$(mktemp \"/Users/se/Documents/unityclass/Marker_Project/Library/Il2cppBuildCache/iOS/il2cppOutput/UnityClassRegistration.cpp.tmpXXXXX\") && cp -af \"/Users/se/Documents/unityclass/Marker_Project/Library/Il2cppBuildCache/iOS/additionalCppFiles/UnityClassRegistration.cpp\" \"${TMPFILE}\" && touch -h -c \"${TMPFILE}\" && mv -f \"${TMPFILE}\" \"/Users/se/Documents/unityclass/Marker_Project/Library/Il2cppBuildCache/iOS/il2cppOutput/UnityClassRegistration.cpp\" ",
+      "Inputs": [
+        "/Users/se/Documents/unityclass/Marker_Project/Library/Il2cppBuildCache/iOS/additionalCppFiles/UnityClassRegistration.cpp"
+      ],
+      "Outputs": [
+        "/Users/se/Documents/unityclass/Marker_Project/Library/Il2cppBuildCache/iOS/il2cppOutput/UnityClassRegistration.cpp"
+      ],
+      "TargetDirectories": [],
+      "PassIndex": 0,
+      "ToBuildDependencies": [
+        1
+      ],
+      "ToUseDependencies": [
+        1
+      ],
+      "OverwriteOutputs": true,
+      "FrontendResponseFiles": [],
+      "AllowUnexpectedOutput": true,
+      "AllowedOutputSubstrings": [],
+      "DebugActionIndex": 2
+    },
+    {
+      "Annotation": "Copy Additional C++ File /Users/se/Documents/unityclass/Marker_Project/Library/Il2cppBuildCache/iOS/il2cppOutput/UnityICallRegistration.cpp",
+      "Action": "TMPFILE=$(mktemp \"/Users/se/Documents/unityclass/Marker_Project/Library/Il2cppBuildCache/iOS/il2cppOutput/UnityICallRegistration.cpp.tmpXXXXX\") && cp -af \"/Users/se/Documents/unityclass/Marker_Project/Library/Il2cppBuildCache/iOS/additionalCppFiles/UnityICallRegistration.cpp\" \"${TMPFILE}\" && touch -h -c \"${TMPFILE}\" && mv -f \"${TMPFILE}\" \"/Users/se/Documents/unityclass/Marker_Project/Library/Il2cppBuildCache/iOS/il2cppOutput/UnityICallRegistration.cpp\" ",
+      "Inputs": [
+        "/Users/se/Documents/unityclass/Marker_Project/Library/Il2cppBuildCache/iOS/additionalCppFiles/UnityICallRegistration.cpp"
+      ],
+      "Outputs": [
+        "/Users/se/Documents/unityclass/Marker_Project/Library/Il2cppBuildCache/iOS/il2cppOutput/UnityICallRegistration.cpp"
+      ],
+      "TargetDirectories": [],
+      "PassIndex": 0,
+      "ToBuildDependencies": [
+        1
+      ],
+      "ToUseDependencies": [
+        1
+      ],
+      "OverwriteOutputs": true,
+      "FrontendResponseFiles": [],
+      "AllowUnexpectedOutput": true,
+      "AllowedOutputSubstrings": [],
+      "DebugActionIndex": 3
+    }
+  ],
+  "FileSignatures": [
+    {
+      "File": "../../../../../../Library"
+    },
+    {
+      "File": "../../../Temp/StagingArea/Data/Managed"
+    },
+    {
+      "File": "artifacts/buildprogram/tundra_buildprogram.dag.json"
+    },
+    {
+      "File": "il2cpp_settings.json"
+    },
+    {
+      "File": "unitylinker_settings.json"
+    }
+  ],
+  "GlobSignatures": [
+    {
+      "Path": "../../../Temp/StagingArea/Data/Managed"
+    }
+  ],
+  "ContentDigestExtensions": [
+    ".rsp",
+    ".dll",
+    ".exe",
+    ".txt",
+    ".c",
+    ".cpp",
+    ".h",
+    ".cs",
+    ".hpp"
+  ],
+  "StructuredLogFileName": "artifacts/tundra.log.json",
+  "StateFileName": "artifacts/TundraBuildState.state",
+  "StateFileNameTmp": "artifacts/TundraBuildState.state.tmp",
+  "ScanCacheFileName": "artifacts/tundra.scancache",
+  "ScanCacheFileNameTmp": "artifacts/tundra.scancache.tmp",
+  "DigestCacheFileName": "artifacts/tundra.digestcache",
+  "DigestCacheFileNameTmp": "artifacts/tundra.digestcache.tmp",
+  "DirectoriesCausingImplicitDependencies": [
+    "/Users/se/Documents/unityclass/Marker_Project/Library/Il2cppBuildCache/iOS/il2cppOutput"
+  ],
+        "NamedNodes": {
+          "all_tundra_nodes": 0
+        }
+,  "DefaultNodes": [
+    0
+  ],
+  "SharedResources": [],
+  "Scanners": [],
+  "Identifier": "artifacts/tundra.dag.json",
+  "BuildTitle": "Bee",
+  "RelativePathToRoot": ".."
+}
